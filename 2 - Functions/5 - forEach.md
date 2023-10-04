@@ -42,7 +42,7 @@ numbers.forEach((number, index) => {
 Callbacks are commonly used in asynchronous programming to handle tasks like making API requests or reading files. For example, you might use the `forEach()` method to iterate over an array of URLs and make an HTTP request for each URL using a callback:
 
 ```javascript
-const urls = ['https://api.example.com/data1', 'https://api.example.com/data2'];
+const urls = ['https://fakestoreapi.com/products', 'https://fakestoreapi.com/products/1'];
 
 urls.forEach((url) => {
   fetch(url)

@@ -16,7 +16,7 @@ Callback functions are commonly used in JavaScript to handle asynchronous operat
        });
    }
 
-   fetchData('https://api.example.com/data', function (data) {
+   fetchData('https://fakestoreapi.com/products', function (data) {
      console.log(data); // Handle the fetched data
    });
    ```

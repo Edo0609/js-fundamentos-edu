@@ -29,7 +29,7 @@ const person = {
   },
 };
 
-console.log(person.getFullName()); // Output: "John Doe"
+console.log(person.getFullName()); /* Output: "John Doe" */
 ```
 
 Here, `getFullName` is a method of the `person` object that returns the full name.
@@ -47,7 +47,7 @@ const person = {
   },
 };
 
-console.log(person.getFullName()); // Output: "John Doe"
+console.log(person.getFullName()); /* Output: "John Doe" */
 ```
 
 In the `getFullName` method, `this` refers to the `person` object.
@@ -68,7 +68,7 @@ const people = [
   },
 ];
 
-console.log(people[0].firstName); // Output: "John"
+console.log(people[0].firstName); /* Output: "John" */
 ```
 
 In this example, `people` is an array containing two objects representing individuals.
@@ -81,7 +81,7 @@ JavaScript includes a built-in `Math` object that provides a collection of mathe
 const circleRadius = 5;
 const circleArea = Math.PI * Math.pow(circleRadius, 2);
 
-console.log(circleArea); // Output: 78.53981633974483
+console.log(circleArea); /* Output: 78.53981633974483 */
 ```
 
 Here, we use the `Math.PI` constant and the `Math.pow()` function to calculate the area of a circle.
@@ -91,11 +91,11 @@ Here, we use the `Math.PI` constant and the `Math.pow()` function to calculate t
 In JavaScript, there are two categories of data types: primitive types and reference types. Objects are reference types, meaning when you assign an object to a variable, you're actually storing a reference to the object in memory. Primitive types include numbers, strings, booleans, null, and undefined, and they are assigned by value rather than reference.
 
 ```javascript
-let a = 5; // 'a' holds the value 5
-let b = a; // 'b' holds a copy of the value 5
+let a = 5; /* 'a' holds the value 5 */
+let b = a; /* 'b' holds a copy of the value 5 */
 
-const obj1 = { name: 'John' }; // 'obj1' holds a reference to an object
-const obj2 = obj1; // 'obj2' holds a reference to the same object as 'obj1'
+const obj1 = { name: 'John' }; /* 'obj1' holds a reference to an object */
+const obj2 = obj1; /* 'obj2' holds a reference to the same object as 'obj1' */
 ```
 
 When working with objects (reference types), you should be aware of how references behave, especially when passing objects as arguments to functions or when modifying objects. Primitive types are copied by value, while objects are copied by reference.

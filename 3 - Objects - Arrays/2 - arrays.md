@@ -11,7 +11,7 @@ const evenNumbers = numbers.filter(function (number) {
   return number % 2 === 0;
 });
 
-console.log(evenNumbers); // Output: [2, 4]
+console.log(evenNumbers); /* Output: [2, 4] */
 ```
 
 **2. Map Method:**
@@ -25,7 +25,7 @@ const squaredNumbers = numbers.map(function (number) {
   return number * number;
 });
 
-console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
+console.log(squaredNumbers); /* Output: [1, 4, 9, 16, 25] */
 ```
 
 **3. Reduce Method:**
@@ -39,7 +39,7 @@ const sum = numbers.reduce(function (accumulator, currentValue) {
   return accumulator + currentValue;
 }, 0);
 
-console.log(sum); // Output: 15
+console.log(sum); /* Output: 15 */
 ```
 
 **4. Find Method:**
@@ -53,7 +53,7 @@ const found = numbers.find(function (number) {
   return number > 3;
 });
 
-console.log(found); // Output: 4
+console.log(found); /* Output: 4 */
 ```
 
 **5. Sort Method:**
@@ -65,7 +65,7 @@ const fruits = ['apple', 'banana', 'cherry', 'date'];
 
 fruits.sort();
 
-console.log(fruits); // Output: ['apple', 'banana', 'cherry', 'date']
+console.log(fruits); /* Output: ['apple', 'banana', 'cherry', 'date'] */
 ```
 
 **6. Chaining Array Methods:**
@@ -86,7 +86,7 @@ const result = numbers
     return accumulator + currentValue;
   }, 0);
 
-console.log(result); // Output: 12
+console.log(result); /* Output: 12 */
 ```
 
 **Exercise Examples:**
@@ -102,7 +102,7 @@ const maxNumber = numbers.reduce(function (max, number) {
   return number > max ? number : max;
 }, -Infinity);
 
-console.log(maxNumber); // Output: 99
+console.log(maxNumber); /* Output: 99 */
 ```
 
 **Exercise 2: Filter Strings**
@@ -114,7 +114,7 @@ const filteredWords = words.filter(function (word) {
   return word.length >= 6;
 });
 
-console.log(filteredWords); // Output: ['banana', 'cherry', 'elderberry']
+console.log(filteredWords); /* Output: ['banana', 'cherry', 'elderberry'] */
 ```
 
 **Exercise 3: Transform and Sum**
@@ -130,7 +130,7 @@ const sumOfSquares = numbers
     return accumulator + currentValue;
   }, 0);
 
-console.log(sumOfSquares); // Output: 55
+console.log(sumOfSquares); /* Output: 55 */
 ```
 
 These exercises showcase how array methods can be used to solve a variety of tasks efficiently and elegantly. By mastering these methods, you can manipulate arrays effectively in JavaScript.
