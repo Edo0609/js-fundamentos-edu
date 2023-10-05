@@ -1,4 +1,4 @@
-**Título: Fundamentos de la Programación con JavaScript**
+**Título: Fundamentos de la Programación con JavaScript:**
 
 **Introducción a JavaScript:**
 
