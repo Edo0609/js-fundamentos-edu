@@ -103,8 +103,42 @@ Modern web development often involves using a combination of frameworks, librari
 
 Modern web development often involves selecting the right combination of these technologies based on project requirements, scalability needs, and development team expertise. The choice of frameworks and stacks can greatly impact the efficiency and success of a web development project.
 
+**0.4 Conceptos Básicos de Programación**
 
-**1. Conceptos Básicos (10 minutos)**
+1. **Programación como Cocina:**
+   - Metáfora: La programación es como cocinar una receta.
+   - Explicación: En la cocina, sigues una receta con pasos específicos. En programación, escribes código con instrucciones detalladas. Los ingredientes son como las variables, y el proceso de cocinar es como ejecutar un programa.
+
+2. **Variables como Contenedores:**
+   - Metáfora: Las variables son como cajas o contenedores.
+   - Explicación: Imagina que las variables son cajas donde puedes guardar cosas, como números, texto o valores. Puedes etiquetar las cajas (nombres de variables) para identificar su contenido.
+
+3. **Bucles como Repetición:**
+   - Metáfora: Los bucles son como lavadoras automáticas.
+   - Explicación: En una lavadora, puedes lavar la misma ropa una y otra vez sin tener que hacerlo manualmente. De manera similar, los bucles en programación te permiten repetir una acción automáticamente.
+
+4. **Condicionales como Señales de Tráfico:**
+   - Metáfora: Las declaraciones condicionales son como señales de tráfico.
+   - Explicación: Las señales de tráfico indican qué acciones debes tomar según ciertas condiciones. De manera similar, las declaraciones condicionales en programación te permiten tomar decisiones basadas en condiciones específicas.
+
+5. **Funciones como Recetas de Cocina:**
+   - Metáfora: Las funciones son como recetas de cocina reutilizables.
+   - Explicación: Imagina que tienes una receta (función) que describe cómo hacer un pastel. Puedes usar esa receta una y otra vez para hacer pasteles similares. Las funciones en programación son bloques de código reutilizables que realizan tareas específicas.
+
+6. **Arreglos como Bandejas de Muffins:**
+   - Metáfora: Los arreglos son como bandejas de muffins.
+   - Explicación: Una bandeja de muffins puede contener múltiples muffins. De manera similar, un arreglo en programación puede contener múltiples elementos (como números o cadenas de texto).
+
+7. **Objetos como Cajas de Herramientas:**
+   - Metáfora: Los objetos son como cajas de herramientas.
+   - Explicación: En una caja de herramientas, tienes diferentes herramientas con funciones específicas. En programación, un objeto agrupa datos (propiedades) y funciones (métodos) relacionadas.
+
+8. **Errores como Semáforos Rojos:**
+   - Metáfora: Los errores son como semáforos rojos en la carretera.
+   - Explicación: Cuando cometes un error en tu código, es como encontrar un semáforo rojo que detiene el flujo del tráfico. Debes corregir el error antes de continuar.
+
+
+**1. Conceptos Básicos**
 
 - Variables: Son contenedores que almacenan datos. Puedes declarar variables con `var`, `let` o `const`.
 - Tipos de datos: Los tipos de datos más comunes son números, cadenas de texto (strings) y booleanos.
@@ -186,7 +220,7 @@ console.log(hoursAwake);
 - Crea una variable para almacenar el número total de horas que pasas despierto cada día.
 - Imprime en la consola el número total de horas que pasas despierto cada día.
 
-**2. Estructuras de Control (15 minutos)**
+**2. Estructuras de Control**
 
 - If-else: Cómo usar declaraciones condicionales para tomar decisiones en tu código.
 - Bucles: Introduce los bucles `for` y `while` para repetir tareas.
@@ -290,23 +324,23 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 
-**3. Funciones (15 minutos)**
+**3. Funciones**
 
 - Define qué son las funciones y cómo se pueden utilizar para organizar y reutilizar código.
 - Parámetros y argumentos: Cómo pasar información a las funciones.
 - Ejemplo: Crea una función que calcule el área de un rectángulo.
 
-**4. Arrays (10 minutos)**
+**4. Arrays**
 
 - Explica qué son los arreglos (arrays) y cómo se utilizan para almacenar conjuntos de datos.
 - Métodos de arreglo: Algunos ejemplos básicos de métodos como `push`, `pop`, `shift`, y `unshift`.
 
-**5. Objetos (10 minutos)**
+**5. Objetos**
 
 - Presenta los objetos como estructuras de datos clave-valor.
 - Cómo crear, acceder y modificar propiedades de objetos.
 
-**6. Eventos y DOM (15 minutos)**
+**6. Eventos y DOM**
 
 - Explica cómo JavaScript puede interactuar con el Document Object Model (DOM) para hacer que las páginas web sean interactivas.
 - Introduce eventos y cómo usarlos para responder a acciones del usuario.
@@ -381,4 +415,138 @@ JavaScript:
 document.getElementById("miBoton").addEventListener("click", function() {
     console.log("¡Hiciste clic en el botón!");
 });
+```
+
+
+
+# Ejercicios 2
+
+1. **Suma y Resta de Números:**
+   - Escribe un programa que sume dos números enteros ingresados por el usuario y luego los reste. Muestra los resultados en pantalla.
+
+2. **Multiplicación y División:**
+   - Crea un programa que multiplique dos números ingresados por el usuario y luego los divida. Asegúrate de manejar la división por cero.
+
+3. **Cálculo del Área de un Rectángulo:**
+   - Escribe un programa que calcule el área de un rectángulo cuando el usuario ingresa la longitud y el ancho como entrada.
+
+4. **Cálculo del Área de un Círculo:**
+   - Crea un programa que calcule el área de un círculo cuando el usuario ingrese el radio como entrada. Utiliza la fórmula del área del círculo: A = π * r^2.
+
+5. **Conversión de Grados Celsius a Fahrenheit:**
+   - Diseña un programa que convierta una temperatura en grados Celsius a grados Fahrenheit utilizando la fórmula: F = (C * 9/5) + 32.
+
+6. **Números Primos:**
+   - Escribe un programa que determine si un número ingresado por el usuario es primo o no. Un número primo es aquel que solo es divisible por 1 y por sí mismo.
+
+7. **Suma de Números Pares e Impares:**
+   - Crea un programa que sume todos los números pares e impares en un rango de números ingresados por el usuario por separado.
+
+8. **Factorial de un Número:**
+   - Diseña un programa que calcule el factorial de un número ingresado por el usuario. El factorial de un número es el producto de todos los enteros positivos hasta ese número.
+
+9. **Fibonacci:**
+   - Escribe un programa que genere la serie de Fibonacci hasta un número específico ingresado por el usuario. La serie de Fibonacci comienza con 0 y 1, y cada número siguiente es la suma de los dos anteriores.
+
+10. **Máximo Común Divisor (MCD):**
+    - Crea un programa que calcule el MCD de dos números enteros ingresados por el usuario utilizando el algoritmo de Euclides.
+
+11. **Cálculo de Potencias:**
+    - Diseña un programa que calcule una potencia específica de un número ingresado por el usuario. Por ejemplo, calcular 2^5 (2 elevado a la quinta potencia).
+
+12. **Números Aleatorios:**
+    - Genera un programa que genere números aleatorios y realice operaciones matemáticas con ellos, como sumas, restas o multiplicaciones.
+
+
+# Soluciones X
+
+**1. Suma y Resta de Números:**
+
+```javascript
+// Solicitar dos números al usuario
+let numero1 = parseFloat(prompt("Ingresa el primer número:"));
+let numero2 = parseFloat(prompt("Ingresa el segundo número:"));
+
+// Realizar la suma y la resta
+let suma = numero1 + numero2;
+let resta = numero1 - numero2;
+
+// Mostrar los resultados
+console.log("La suma es: " + suma);
+console.log("La resta es: " + resta);
+```
+
+**2. Cálculo del Área de un Rectángulo:**
+
+```javascript
+// Solicitar longitud y ancho al usuario
+let longitud = parseFloat(prompt("Ingresa la longitud del rectángulo:"));
+let ancho = parseFloat(prompt("Ingresa el ancho del rectángulo:"));
+
+// Calcular el área
+let area = longitud * ancho;
+
+// Mostrar el resultado
+console.log("El área del rectángulo es: " + area);
+```
+
+**3. Números Primos:**
+
+```javascript
+// Solicitar un número al usuario
+let numero = parseInt(prompt("Ingresa un número:"));
+let esPrimo = true;
+
+// Comprobar si es primo
+if (numero <= 1) {
+    esPrimo = false;
+} else {
+    for (let i = 2; i <= Math.sqrt(numero); i++) {
+        if (numero % i === 0) {
+            esPrimo = false;
+            break;
+        }
+    }
+}
+
+// Mostrar el resultado
+if (esPrimo) {
+    console.log(numero + " es un número primo.");
+} else {
+    console.log(numero + " no es un número primo.");
+}
+```
+
+**4. Factorial de un Número:**
+
+```javascript
+// Solicitar un número al usuario
+let numero = parseInt(prompt("Ingresa un número:"));
+let factorial = 1;
+
+// Calcular el factorial
+for (let i = 1; i <= numero; i++) {
+    factorial *= i;
+}
+
+// Mostrar el resultado
+console.log("El factorial de " + numero + " es: " + factorial);
+```
+
+**5. Generar Serie de Fibonacci:**
+
+```javascript
+// Solicitar la cantidad de términos al usuario
+let cantidadTerminos = parseInt(prompt("Ingresa la cantidad de términos en la serie de Fibonacci:"));
+let termino1 = 0, termino2 = 1;
+
+// Mostrar los primeros n términos de la serie de Fibonacci
+console.log("Serie de Fibonacci:");
+
+for (let i = 1; i <= cantidadTerminos; i++) {
+    console.log(termino1);
+    let siguienteTermino = termino1 + termino2;
+    termino1 = termino2;
+    termino2 = siguienteTermino;
+}
 ```
