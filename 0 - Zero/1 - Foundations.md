@@ -1,8 +1,30 @@
 **Título: Fundamentos de la Programación con JavaScript**
 
-**Introducción (5 minutos)**
+**Introducción a JavaScript:**
 
-- Explica brevemente qué es JavaScript: un lenguaje de programación ampliamente utilizado en el desarrollo web para crear interactividad en las páginas web.
+JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web. Es un lenguaje interpretado y orientado a objetos que se ejecuta en el navegador del usuario, lo que permite agregar interactividad y dinamismo a las páginas web. JavaScript es esencial para la creación de sitios web modernos y aplicaciones web interactivas.
+
+**Historia de JavaScript:**
+
+- **Orígenes:** JavaScript fue creado por Brendan Eich en 1995 mientras trabajaba en Netscape Communications Corporation. La primera versión se llamaba "Mocha" y se incluyó en el navegador Netscape Navigator 2.0. Más tarde, se renombró a "LiveScript" y finalmente a "JavaScript" por razones de marketing en colaboración con Sun Microsystems (los creadores de Java).
+
+- **ECMAScript:** Para estandarizar JavaScript y asegurar su compatibilidad entre diferentes navegadores, se formó ECMA International en 1996. El estándar resultante se llamó ECMAScript. Desde entonces, JavaScript ha evolucionado a través de múltiples versiones de ECMAScript, como ES5, ES6 (también conocido como ES2015), ES7, etc.
+
+**Anécdotas interesantes:**
+
+1. **El nombre "JavaScript":** El nombre "JavaScript" puede ser confuso ya que no está relacionado con el lenguaje de programación Java. La elección del nombre fue en gran parte una estrategia de marketing para capitalizar el crecimiento de Java en ese momento.
+
+2. **Competencia con Microsoft:** En la década de 1990, JavaScript y Microsoft's JScript (un lenguaje similar) estaban en competencia. Esta competencia llevó a mejoras en ambos lenguajes y contribuyó al desarrollo de estándares web.
+
+3. **jQuery y el auge de las bibliotecas:** jQuery, una biblioteca JavaScript creada por John Resig en 2006, se hizo extremadamente popular debido a su facilidad de uso y abstracción de la manipulación del DOM. Ayudó a simplificar tareas comunes en JavaScript y a unificar las diferencias entre navegadores.
+
+4. **Node.js:** En 2009, Ryan Dahl creó Node.js, que permitió ejecutar JavaScript en el lado del servidor. Esto abrió nuevas posibilidades para el desarrollo de aplicaciones web en tiempo real y contribuyó al auge de JavaScript como un lenguaje full-stack.
+
+5. **La evolución de ECMAScript:** Las actualizaciones periódicas de ECMAScript, con nuevas características y mejoras, han mantenido a JavaScript relevante y competitivo. ES6 (ES2015) introdujo características como las clases, el operador de propagación y las promesas, que han mejorado significativamente la legibilidad y la capacidad de mantenimiento del código JavaScript.
+
+6. **El ecosistema de desarrollo:** El ecosistema de desarrollo de JavaScript incluye una amplia variedad de bibliotecas y frameworks, como React, Angular y Vue.js, que simplifican la creación de aplicaciones web y móviles sofisticadas.
+
+En resumen, JavaScript ha recorrido un largo camino desde su creación en 1995 y se ha convertido en uno de los lenguajes de programación más influyentes y utilizados en el mundo. Su historia está llena de anécdotas interesantes y su continua evolución asegura que seguirá siendo una parte fundamental del desarrollo web en el futuro.
 
 **0.1 Qué es JavaScript**
 
@@ -204,6 +226,70 @@ if (myCountry === "USA") {
 }
 ```
 
+**1. Hola, Mundo!:** 
+   - Imprime "¡Hola, Mundo!" en la consola.
+
+```javascript
+console.log("¡Hola, Mundo!");
+```
+
+**2. Variables y Operaciones Matemáticas:**
+   - Crea dos variables, `numero1` y `numero2`, y asígnales valores.
+   - Realiza operaciones matemáticas como suma, resta, multiplicación y división entre estas dos variables.
+   - Imprime los resultados en la consola.
+
+```javascript
+let numero1 = 5;
+let numero2 = 3;
+
+let suma = numero1 + numero2;
+let resta = numero1 - numero2;
+let multiplicacion = numero1 * numero2;
+let division = numero1 / numero2;
+
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
+```
+
+**3. Strings y Concatenación:**
+   - Crea dos variables de tipo cadena, `nombre` y `apellido`, y asígnales tu nombre y apellido.
+   - Concatena las dos variables para formar una frase que diga "Hola, [nombre] [apellido]!".
+   - Imprime la frase en la consola.
+
+```javascript
+let nombre = "Juan";
+let apellido = "Pérez";
+
+let saludo = "Hola, " + nombre + " " + apellido + "!";
+console.log(saludo);
+```
+
+**4. Condicionales:**
+   - Crea una variable `edad` y asígnale un valor numérico.
+   - Utiliza una declaración `if` para verificar si la edad es mayor o igual a 18.
+   - Si la condición es verdadera, imprime "Eres mayor de edad" en la consola. En caso contrario, imprime "Eres menor de edad".
+
+```javascript
+let edad = 20;
+
+if (edad >= 18) {
+    console.log("Eres mayor de edad");
+} else {
+    console.log("Eres menor de edad");
+}
+```
+
+**5. Bucle For:**
+   - Utiliza un bucle `for` para imprimir los números del 1 al 5 en la consola.
+
+```javascript
+for (let i = 1; i <= 5; i++) {
+    console.log(i);
+}
+```
+
 **3. Funciones (15 minutos)**
 
 - Define qué son las funciones y cómo se pueden utilizar para organizar y reutilizar código.
@@ -225,21 +311,74 @@ if (myCountry === "USA") {
 - Explica cómo JavaScript puede interactuar con el Document Object Model (DOM) para hacer que las páginas web sean interactivas.
 - Introduce eventos y cómo usarlos para responder a acciones del usuario.
 
-**Ejercicio Práctico (10 minutos)**
+**Preguntas, Respuestas y Ejercicios**
 
-- Proporciona a los estudiantes un ejercicio práctico simple que involucre los conceptos aprendidos, como la manipulación del DOM para cambiar el contenido de una página web.
+**7. Arrays y Ciclo For:**
+   - Crea un array llamado `colores` que contenga varios nombres de colores.
+   - Utiliza un bucle `for` para recorrer el array e imprime cada color en la consola.
 
-**Preguntas y Respuestas (5 minutos)**
+```javascript
+let colores = ["Rojo", "Verde", "Azul", "Amarillo", "Naranja"];
 
-- Responde a las preguntas de los estudiantes y refuerza los conceptos clave.
+for (let i = 0; i < colores.length; i++) {
+    console.log(colores[i]);
+}
+```
 
-**Conclusion (5 minutos)**
+**8. Funciones:**
+   - Crea una función llamada `saludar` que tome un parámetro `nombre` y devuelva un saludo personalizado.
+   - Llama a la función con diferentes nombres y muestra los saludos en la consola.
 
-- Resalta la importancia de los fundamentos de JavaScript en el desarrollo web y la programación en general.
-- Anima a los estudiantes a practicar y seguir aprendiendo.
+```javascript
+function saludar(nombre) {
+    return "¡Hola, " + nombre + "!";
+}
 
-**Recursos adicionales (si hay tiempo):**
+console.log(saludar("Juan"));
+console.log(saludar("María"));
+```
 
-- Menciona recursos en línea donde los estudiantes pueden aprender más sobre JavaScript, como tutoriales, documentación oficial y comunidades en línea.
+**9. Condicionales (Parte 2):**
+   - Crea una función llamada `esPar` que tome un número como parámetro y devuelva `true` si es par y `false` si es impar.
+   - Llama a la función con varios números y muestra los resultados en la consola.
 
-Este plan de una hora proporciona una introducción sólida a los fundamentos de la programación con JavaScript y permite tiempo para la práctica y preguntas. ¡Espero que sea útil para tu clase!
+```javascript
+function esPar(numero) {
+    return numero % 2 === 0;
+}
+
+console.log(esPar(4));  // Debería mostrar true
+console.log(esPar(7));  // Debería mostrar false
+```
+
+**10. Objetos:**
+   - Crea un objeto llamado `persona` con propiedades como `nombre`, `edad` y `ciudad`.
+   - Imprime las propiedades del objeto en la consola.
+
+```javascript
+let persona = {
+    nombre: "Ana",
+    edad: 30,
+    ciudad: "Madrid"
+};
+
+console.log("Nombre:", persona.nombre);
+console.log("Edad:", persona.edad);
+console.log("Ciudad:", persona.ciudad);
+```
+
+**11. Evento Click (en el navegador):**
+   - Crea un archivo HTML con un botón.
+   - Agrega un controlador de eventos en JavaScript para que, al hacer clic en el botón, se muestre un mensaje en la consola.
+
+HTML:
+```html
+<button id="miBoton">Haz clic</button>
+```
+
+JavaScript:
+```javascript
+document.getElementById("miBoton").addEventListener("click", function() {
+    console.log("¡Hiciste clic en el botón!");
+});
+```
