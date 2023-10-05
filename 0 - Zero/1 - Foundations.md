@@ -2,6 +2,8 @@
 
 **Introducción a JavaScript:**
 
+Hola Mundo
+
 JavaScript es un lenguaje de programación ampliamente utilizado en el desarrollo web. Es un lenguaje interpretado y orientado a objetos que se ejecuta en el navegador del usuario, lo que permite agregar interactividad y dinamismo a las páginas web. JavaScript es esencial para la creación de sitios web modernos y aplicaciones web interactivas.
 
 **Historia de JavaScript:**
